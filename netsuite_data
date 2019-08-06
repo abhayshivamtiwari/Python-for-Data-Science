@@ -1,0 +1,9 @@
+import datadotworld as dw
+intro_dataset = dw.load_dataset('https://tstdrv1380373.extforms.netsuite.com/app/site/hosting/scriptlet.nl?script=2274&deploy=1&compid=TSTDRV1380373&h=6c8e63c03d0da22b1c7e')
+intro_dataset.dataframes
+LazyLoadedDict({
+    'changelog': LazyLoadedValue(<pandas.DataFrame>),
+    'datadotworldbballstats': LazyLoadedValue(<pandas.DataFrame>),
+    'datadotworldbballteam': LazyLoadedValue(<pandas.DataFrame>)}),
+    'dataset':iris(<pandas.DataFrame>)
+        
